@@ -1,2 +1,3 @@
-nowy plik
+nowy plik user 2
 user 1 zmiana
+
