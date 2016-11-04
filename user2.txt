@@ -2,3 +2,4 @@ oto nowy plik by user2
 line 1 a
 line 2
 
+gdf
