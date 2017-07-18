@@ -48,7 +48,7 @@ RUN set -ex; \
 	rm -rf /var/lib/apt/lists/*
 
 ENV PATH /usr/share/logstash/bin:$PATH
-
+cp -b /usr/logstash/5/logstash.conf /etc/logstash/conf.d/
 # necessary for 5.0+ (overriden via "--path.settings", ignored by < 5.0)
 ENV LS_SETTINGS_DIR /etc/logstash
 # comment out some troublesome configuration parameters
